@@ -3,7 +3,7 @@ PVector goal = new PVector(400, 10);
 
 void setup() {
   size(800,800);
-  dots = new Population(400);
+  dots = new Population(600);
   
   dots.addObstacle(200, 200, 800, 10);
   dots.addObstacle(0, 400, 600, 10);

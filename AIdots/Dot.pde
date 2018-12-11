@@ -40,7 +40,7 @@ class Dot {
     }
     
     vel.add(acc);
-    vel.limit(5);
+    vel.limit(10);
     pos.add(vel);
   }
   

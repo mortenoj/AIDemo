@@ -27,7 +27,7 @@ class Brain {
   }
 
   void mutate() {
-    float mutationRate = 0.10;
+    float mutationRate = 0.01;
     for (int i = 0; i < directions.length; i++) {
       float rand = random(1);
       if (rand < mutationRate) {
